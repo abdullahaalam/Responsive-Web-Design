@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task List To-Do | Tasks</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Abdullah Alam">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-static-top navbar-inverse">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"><span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+          <a class="navbar-brand" href="index.html">Task List To-Do</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="tasks.html">Tasks</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="container">
+        <legend>Single Task List To-Do</legend>
+
+        <ol class="breadcrumb">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li class="active"><a href="tasks.html">Tasks</a></li>
+
+        </ol>
+        <div id="tasksTabs">
+          <ul class="nav nav-tabs">
+            <li class="active"><a  href="#task_one" data-toggle="tab">Personal</a></li>
+            <li><a href="#task_two" data-toggle="tab">School Project</a></li>
+            <li><a href="#task_three" data-toggle="tab">MOOCs Project</a></li>
+            <li><a href="#task_four" data-toggle="tab">My Wish List</a></li>
+          </ul>
+
+        <div class="tab-content ">
+          <div class="tab-pane active" id="task_one">
+            <h3>Personal</h3><hr></hr>
+            <div class="img-responsive pull-left">
+              <img src="img/personal.png" alt="Personal" style="max-width:200px; margin-right:30px; margin-bottom:-3px; margin-top: -15px;"/>
+
+            </div>
+
+            <div>
+
+              <ul>
+                <li class="done">Visit California!</li>
+                <li class="done">Go to Boiling Crab!</li>
+                <li class="done">Go to Hollywood!</li>
+                <li>To apply for another's master's degree.</li>
+                <li>To start my own small start-up business.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tab-pane" id="task_two">
+            <h3>School Project</h3><hr></hr>
+            <div class="img-responsive pull-left">
+              <img <img src="img/ist-logo.png" alt="School Project" style="max-width:200px; margin-right:30px; margin-bottom:-3px; margin-top: -15px;"/>
+              
+            </div>
+             <div>
+
+              <ul>
+                <li class="done">Mini Project for iOS: HaHa assignment.</li>
+                <li class="done">Mini Project for iOS: Greeter assignment.</li>
+                <li class="done">Mini Project for Android: Road Sign Quiz assignment.</li>
+                <li class="done">To coding an InstaFun app for iOS.</li>
+                <li>To coding an InstaFun app for Android.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="tab-pane" id="task_three">
+            <h3>MOOCs Project</h3><hr></hr>
+            <div class="img-responsive pull-left">
+              <img <img src="img/moocs-learning.png" alt="MOOCs Project" style="max-width:200px; margin-right:30px; margin-bottom:-3px; margin-top: -15px;"/>
+             
+
+
+            </div>
+            <div>
+              
+              <ul>
+                <li class="done">Assignment: Test your CSS and HTML.</li>
+                <li class="done">Assignment: Build a Responsive Web Page.</li>
+                <li>Assignment: Data Driven Website!</li>
+                <li>Assignment: Install meteor and edit some templates.</li>
+                <li>Assignment: Build a social website aggregator</li>
+              </ul>
+
+            </div>
+          </div>
+          <div class="tab-pane" id="task_four">
+            <h3>My Wish List</h3><hr></hr>
+            <div class="img-responsive pull-left">
+              <img <img <img src="img/WishList.gif" style="max-width:210px; margin-right:30px; margin-bottom:-3px; margin-top: -15px;"/>
+            </div>
+            <div>
+      
+              <ul>
+                <li class="done">Go to Dubai.</li>
+                <li>To get a new job.</li>
+                <li>To settle down at California.</li>
+                <li>Visit europen countries.</li>
+                <li>One of my wish list is to get a job at Google in the future.</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+        <br>
+
+        <hr>
+      </div>
+
+
+      <div class="container">
+        <p class="footer">&copy; 2015 Abdullah A. Alam</p>
+      </div>
+
+
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>

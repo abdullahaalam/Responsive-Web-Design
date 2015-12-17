@@ -1,0 +1,25 @@
+
+legend {
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+	font-family: Century Gothic, sans-serif;
+}
+
+.jumbotron {
+	background: #2E2E2E; 
+}
+
+.footer {
+	text-align: right; 
+    font-weight: bold; 
+}
+
+h3, h4, small {
+	text-align: center;
+}
+
+.done {
+	text-decoration:line-through;
+  	color: black;
+}
